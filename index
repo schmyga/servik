@@ -1,52 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>AndrozonTV</title>
     <style>
         body {
-            background-color: #7B68EE;
-            background-size: cover;
-            text-align: center;
-            padding: 20px;
             font-family: Arial, sans-serif;
+            background-color: #7a7a7a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin: 0;
         }
-
-        .button {
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 18px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
         .player-container {
-            max-width: 100%;
-            overflow: hidden;
-            margin-bottom: 20px;
+            text-align: center;
+            width: 500px;
         }
-
-        .player-container iframe {
+        .search-container {
+            margin-bottom: 40px;
+        }
+        .channel-list {
             width: 100%;
-            height: 300px;
+            margin-bottom: 40px;
+        }
+        video {
+            width: 100%;
         }
     </style>
 </head>
-<body>
-    <h1>Home</h1>
-    <div class="button-container">
-        <a href="#" class="button">Button 1</a>
-        <a href="#" class="button">Button 2</a>
-        <a href="#" class="button">Button 3</a>
-        <a href="#" class="button">Button 4</a>
-        <a href="#" class="button">Button 5</a>
-    </div>
-    
-    <h1>Video</h1>
-    <div class="player-container">
-        </head>
 <body>
     <div class="player-container">
         <h1>Androzon TV</h1>
@@ -133,11 +116,9 @@
     </script>
 </body>
 </html>
-    </div>
-    
-    <h1>Radio</h1>
-    <div class="player-container">
-        <html lang="ru">
+
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Радио Плеер</title>
